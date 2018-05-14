@@ -6,7 +6,7 @@ public class AccountTest {
         Scanner input = new Scanner(System.in);
 
         //crate an instance of Account
-        Account myAccount = new Account();
+        Account myAccount = new Account("Hello ");
         String accName = input.nextLine(); //Read input and save in accName
         myAccount.setName(accName);
         //display the default account info
